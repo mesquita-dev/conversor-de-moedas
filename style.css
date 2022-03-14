@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", monospace;
+  min-height: 400px;
+  background-image: url("https://multiways.com.br/wp-content/uploads/2021/03/moedas-e1582724715774.jpeg"),
+    linear-gradient(rgba(0, 15, 9, 0.95), rgba(0, 0, 0, 0.98));
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  margin-bottom: 32px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
